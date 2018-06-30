@@ -10,8 +10,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
 
-import com.a2018.mohab.journalapp.LoginUtils.GoogleSignInActivity;
-
 public class MainActivity extends AppCompatActivity {
     TextInputEditText editTextTitle;
     Button btnLogin;

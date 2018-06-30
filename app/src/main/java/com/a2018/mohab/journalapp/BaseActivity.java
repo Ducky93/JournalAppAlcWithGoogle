@@ -1,12 +1,10 @@
-package com.a2018.mohab.journalapp.LoginUtils;
+package com.a2018.mohab.journalapp;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-
-import com.a2018.mohab.journalapp.R;
 
 public class BaseActivity extends AppCompatActivity {
 

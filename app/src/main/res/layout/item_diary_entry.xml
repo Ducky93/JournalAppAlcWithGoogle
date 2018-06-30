@@ -16,7 +16,8 @@
         app:layout_constraintEnd_toStartOf="@+id/txtDiaryEntryTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?android:attr/actionModePasteDrawable" />
+        app:srcCompat="?android:attr/actionModePasteDrawable"
+        android:contentDescription="@string/itemdiaryentryimg" />
 
     <TextView
         android:id="@+id/txtDiaryEntryTitle"
@@ -28,7 +29,7 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="46dp"
         android:fontFamily="cursive"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
         android:typeface="sans"

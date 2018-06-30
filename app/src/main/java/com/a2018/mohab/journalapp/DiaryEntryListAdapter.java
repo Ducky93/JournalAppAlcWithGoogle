@@ -42,7 +42,7 @@ public class DiaryEntryListAdapter extends ArrayAdapter<DiaryEntry> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater layoutInflater = mContext.getLayoutInflater();
         @SuppressLint("ViewHolder")
-        View listViewItem = layoutInflater.inflate(R.layout.item_diary_entry,null,true);
+        View listViewItem = layoutInflater.inflate(R.layout.item_diary_entry,parent,true);
 
         TextView diaryEntryTitleTextView = listViewItem.findViewById(R.id.txtDiaryEntryTitle);
         btnDeleteEntry = listViewItem.findViewById(R.id.btnDeleteDiaryItem);

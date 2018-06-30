@@ -1,4 +1,4 @@
-package com.a2018.mohab.journalapp.LoginUtils;
+package com.a2018.mohab.journalapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,8 +8,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.a2018.mohab.journalapp.DiaryActivity;
-import com.a2018.mohab.journalapp.R;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

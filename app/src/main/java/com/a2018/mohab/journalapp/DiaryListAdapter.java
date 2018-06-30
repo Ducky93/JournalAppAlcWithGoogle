@@ -27,7 +27,7 @@ public class DiaryListAdapter extends ArrayAdapter<Diary> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater layoutInflater = mContext.getLayoutInflater();
         @SuppressLint("ViewHolder")
-        View listViewItem = layoutInflater.inflate(R.layout.item_diary,null,true);
+        View listViewItem = layoutInflater.inflate(R.layout.item_diary,parent,true);
 
         TextView diaryNameTxtView = listViewItem.findViewById(R.id.diaryName);
         Diary currentDiary = mList.get(position);
