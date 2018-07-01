@@ -21,3 +21,10 @@ after_success:
 script:
 #- ./gradlew build
 - chmod +x ./gradlew
+deploy:
+  provider: releases
+  GITHUB_API_KEY: $GITHUB_TOKEN
+  file: app/build/outputs/apk/app-release.apk
+  skip_cleanup: true
+  on:
+    tags: true
