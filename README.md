@@ -15,7 +15,5 @@ Made by Ducky on 30/6/2018!
 
 You can also:
   - SignIn/Register using google authentication
-> Please accept me in the second phase
-> I'm kinda not so excited to get another rejection for the 100th time with Udacity xD
 
 >With best Ducky regards~~ :)
